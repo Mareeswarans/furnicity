@@ -1,0 +1,162 @@
+@media  ( max-width : 480px){
+    .box{
+        div{
+           width: 100%;
+        }
+    }
+}
+
+@media ( max-width : 480px ){
+    .gray{
+        padding: 25px 0px;
+        div{
+            h2{
+                font-size: 20px;
+            }
+            input{
+                width: 250px;
+            }
+        }
+    }
+}
+
+
+@media (max-width:480px){
+    .background{
+        height: 100vh;
+        .content{
+            height: 100vh;
+            >div{
+                width: 100%;
+                padding: 0px 15px;
+                text-align: center;
+                h1{ 
+                    font-size: 40px;
+                }
+                em{
+                    margin: 20px auto;
+                }
+                a{
+                   margin: 0 auto;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width : 480px){
+    .amazing{
+        padding: 30px 0px;
+        .left-img{
+            width:100%;
+            margin-bottom: 20px;
+            h2{ 
+                font-size: 20px;
+            }
+            em{
+                margin: 20px auto;
+            }
+            p{
+                width: 50%;
+            }
+            a{
+                margin: 0 auto;
+            }
+        }
+        .right-img{
+            width: 100%;
+            img{
+                max-width: 100%;
+                &:nth-child(1){
+                    width: 100%;
+                }
+                &:nth-child(2){
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
+
+@media ( max-width : 480px){
+    .brand{
+        padding-top: 25px;
+        .sofa{
+            padding: 0px 15px;
+            h2{
+                font-size: 20px;
+            }
+        }
+        .bed{
+            h2{
+                font-size: 20px;
+            }
+        }
+    }
+}
+
+@media ( max-width : 480px){
+    .collection{
+        padding: 0px 15px;
+        .dine{
+            width: 100%;
+            margin-bottom: 20px;
+            background-position: left;
+            h2{
+                font-size: 20px;
+            }
+        }
+        .bed-collection{
+            width: 100%;
+            padding: 0px;
+            h2{
+                font-size: 20px;
+            }
+        }
+    }
+}
+
+@media ( max-width : 480px ){
+    .testimonials{
+        background-size: cover;
+        padding: 0px;
+        .test{
+            padding: 30px 15px;
+            h2{
+                font-size: 20px;
+            }
+            p{
+                font-size: 16px;
+            }
+        }
+        .blue{
+            div{
+                h4{
+                    font-size: 30px;
+                }
+                span{
+                    font-size: 16px;
+                }
+            }
+        }
+        
+    }
+}
+
+@media (max-width : 480px){
+    header{
+        .nav{
+            .nav-right{
+                ul{
+                    li{
+                        display: none;
+                    }
+                    i{
+                        display: block;
+                        font-size: 20px;
+                    }
+                }
+            }
+        }
+    }
+}
